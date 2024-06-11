@@ -1,0 +1,60 @@
+.header {
+    padding: 1rem;
+    background-color: #fff0f6; /* 淡粉色背景 */
+    border-bottom: 2px solid #ffccdd;
+ }
+ .list {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* 居中排列 */
+    padding: 0;
+    margin: 0;
+ }
+ .list li{
+    margin: 0 2rem;
+ }
+ .list a {
+    text-decoration: none;
+    color: #d63384; /* 深粉色文字 */
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* 使用精緻字體 */
+    transition: color 0.3s ease; /* 添加顏色變化的過渡效果 */
+ }
+ .list a:hover,
+ .list a.active {
+    color: #a61262; /* 更深的粉色 */
+    text-decoration: underline;
+ /* --------------------------- 下面是我新增的 */
+ }
+ .list {
+    list-style-type: none;
+    padding: 0;
+ }
+ .item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+ }
+ .item:hover {
+    background-color: #e9e9e9;
+ }
+ .link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+ }
+ .link:hover {
+    color: #0073e6;
+ }
+ .error {
+    color: red;
+    font-weight: bold;
+ }
+ .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+ }
